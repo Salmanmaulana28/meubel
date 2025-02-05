@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #6d5858, #4778ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.login-container {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 105%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-btn {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.register-btn {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+.fb-btn {
+    background-color: #3f51b5;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.gg-btn {
+    background-color: #3f51b5;
+    color: white;
+}
